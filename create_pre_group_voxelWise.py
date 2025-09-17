@@ -97,7 +97,7 @@ DEFAULT_SLURM_PARAMS = {
     'time': '04:00:00',
     'mem': '32G',
     'cpus_per_task': 4,
-    'container': '/gscratch/scrubbed/fanglab/xiaoqian/repo/hyak_narsad_remove_time_effect/narsad-fmri_1st_level_1.0.sif'
+    'container': '/gscratch/scrubbed/fanglab/xiaoqian/repo/hyak_narsad_remove_cs_minus_first_time_effect/narsad-fmri_1st_level_1.0.sif'
 }
 
 def get_cope_list(derivatives_dir):
