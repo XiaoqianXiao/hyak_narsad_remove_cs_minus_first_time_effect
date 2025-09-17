@@ -298,7 +298,7 @@ Examples:
     
     # Set script directory - use default workdir/pregroup structure
     scrubbed_dir = os.getenv('SCRUBBED_DIR', '/scrubbed_dir')
-    workdir = Path(scrubbed_dir) / 'NARSAD' / 'work_flows' / 'groupLevel_timeEffect'
+    workdir = Path(scrubbed_dir) / 'NARSAD' / 'work_flows' / 'remove_cs_minus_first_time_effect' / 'groupLevel_timeEffect'
     script_dir = workdir / 'pregroup'
     
     # Ensure script directory is absolute and in a writable location
