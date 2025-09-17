@@ -293,8 +293,8 @@ Examples:
     
     # Use container paths directly since this script runs inside the container
     logger.info("Using container paths directly")
-    output_dir = '/data/NARSAD/MRI/derivatives/fMRI_analysis_remove/groupLevel_timeEffect'
-    derivatives_dir = '/data/NARSAD/MRI/derivatives/fMRI_analysis_remove'
+    output_dir = '/data/NARSAD/MRI/derivatives/fMRI_analysis_remove_cs_minus_first/groupLevel_timeEffect'
+    derivatives_dir = '/data/NARSAD/MRI/derivatives/fMRI_analysis_remove_cs_minus_first'
     
     # Set script directory - use default workdir/pregroup structure
     scrubbed_dir = os.getenv('SCRUBBED_DIR', '/scrubbed_dir')
